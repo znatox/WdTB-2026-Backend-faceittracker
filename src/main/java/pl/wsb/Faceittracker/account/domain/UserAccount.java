@@ -1,4 +1,4 @@
-package pl.wsb.Faceittracker.account.domain;
+package pl.wsb.faceittracker.account.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

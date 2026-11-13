@@ -1,4 +1,4 @@
-package pl.wsb.Faceittracker;
+package pl.wsb.faceittracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

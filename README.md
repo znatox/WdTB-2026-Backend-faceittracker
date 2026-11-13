@@ -99,13 +99,13 @@ W GitHub Actions przebieg „Testy i reguły” ma dwa etapy: *Ocena 4 · reguł
 
 Nazwę projektu w repozytorium, pakiecie, klasie startowej i `artifactId` zmieniacie, gdy zespół wybierze nazwę (LAB 01, krok C3).
 
-| Plik | Zmiana | Reguła |
-|---|---|---|
-| pakiet `Faceittracker` | *Refactor → Rename* na pakiecie → `pl.wsb.<nazwaprojektu>` | R1.01 |
-| `ProjektApplication.java` | *Refactor → Rename* na klasie → `<NazwaProjektu>Application` | R1.01 |
-| `pom.xml`, `<artifactId>` | `wdtb-2026-backend-<nazwaprojektu>` | R1.01 |
-| `pom.xml`, `<version>` | `1.0.0-<nrindeksu1>-<nrindeksu2>-<nrindeksu3>` | R1.05 |
-| `src/main/resources/data.sql` | konta wszystkich osób z zespołu (wzór w komentarzu na końcu pliku) | R1.03 |
+| Plik                                   | Zmiana | Reguła |
+|----------------------------------------|---|---|
+| pakiet `faceittracker`                 | *Refactor → Rename* na pakiecie → `pl.wsb.<nazwaprojektu>` | R1.01 |
+| `ProjektApplication.java`              | *Refactor → Rename* na klasie → `<NazwaProjektu>Application` | R1.01 |
+| `pom.xml`, `<artifactId>`              | `wdtb-2026-backend-<nazwaprojektu>` | R1.01 |
+| `pom.xml`, `<version>`                 | `1.0.0-<nrindeksu1>-<nrindeksu2>-<nrindeksu3>` | R1.05 |
+| `src/main/resources/data.sql`          | konta wszystkich osób z zespołu (wzór w komentarzu na końcu pliku) | R1.03 |
 | `src/main/resources/static/index.html` | wizytówka projektu: zastąpcie wszystkie `[uzupełnij]` | R1.04 |
 
 Na LAB 01 wystarczy, że zmiany zacommituje jedna osoba z zespołu. Zmiany wysyłacie bezpośrednio na `main`

@@ -1,4 +1,4 @@
-package pl.wsb.Faceittracker.tracker.entity;
+package pl.wsb.faceittracker.tracker.entity;
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
